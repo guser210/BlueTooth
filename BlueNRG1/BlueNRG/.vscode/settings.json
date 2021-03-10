@@ -1,0 +1,15 @@
+{
+    "json.schemas": [
+    {
+        "fileMatch": [
+            "/myfile"
+        ],
+        "url": "schemaURL"
+    }
+    ],
+
+    "armToolchainVersion": "10.2.1",
+    "cortex-debug.armToolchainPath": "C:/Data/Documents/VSCode/Tools/gcc-arm-none-eabi-10-2020-q4-major/bin", 
+    "bluenrgDkLocation":"C:/Data/Documents/VSCode/Tools/BlueNRG1Library",
+    "binaryFileName":"BlueNRG"
+}
