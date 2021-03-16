@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceRoot}/inc",
+                "${config:bluenrgDkLocation}/hal/inc",
+                "${config:bluenrgDkLocation}/BlueNRG1_Periph_Driver/inc",
+                "${config:bluenrgDkLocation}/Bluetooth_LE/inc",
+                "${config:bluenrgDkLocation}/CMSIS/Include",
+                "${config:bluenrgDkLocation}/CMSIS/Device/ST/BlueNRG1/Include",
+                "${config:bluenrgDkLocation}/SDK_Eval_BlueNRG1/inc",
+                "${config:bluenrgDkLocation}/BLE_Application/OTA/inc",
+                "${config:bluenrgDkLocation}/BLE_Application/Utils/inc",
+                "${config:bluenrgDkLocation}/BLE_Application/layers_inc",
+                "${config:cortex-debug.armToolchainPath}/../arm-none-eabi/include",
+                "${config:cortex-debug.armToolchainPath}/../lib/gcc/arm-none-eabi/${config:armToolchainVersion}/include",
+                "${config:cortex-debug.armToolchainPath}/../lib/gcc/arm-none-eabi/${config:armToolchainVersion}/include-fixed",
+                "${config:cortex-debug.armToolchainPath}/../arm-none-eabi/include/machine",
+                "${config:cortex-debug.armToolchainPath}/../arm-none-eabi/include/newlib-nano",
+                "${config:cortex-debug.armToolchainPath}/../arm-none-eabi/include/sys"
+            ],
+            "defines": [],
+            "intelliSenseMode": "windows-gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${config:bluenrgDkLocation}/hal/inc",
+                    "${config:bluenrgDkLocation}/BlueNRG1_Periph_Driver/inc",
+                    "${config:bluenrgDkLocation}/Bluetooth_LE/inc",
+                    "${config:bluenrgDkLocation}/CMSIS/Include",
+                    "${config:bluenrgDkLocation}/CMSIS/Device/ST/BlueNRG1/Include",
+                    "${config:bluenrgDkLocation}/SDK_Eval_BlueNRG1/inc",
+                    "${config:bluenrgDkLocation}/BLE_Application/OTA/inc",
+                    "${config:bluenrgDkLocation}/BLE_Application/Utils/inc",
+                    "${config:bluenrgDkLocation}/BLE_Application/layers_inc",
+                    "${config:cortex-debug.armToolchainPath}/../lib/gcc/arm-none-eabi/${config:armToolchainVersion}/include",
+                    "${config:cortex-debug.armToolchainPath}/../lib/gcc/arm-none-eabi/${config:armToolchainVersion}/include-fixed",
+                    "${config:cortex-debug.armToolchainPath}/../arm-none-eabi/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "compilerPath": "${config:cortex-debug.armToolchainPath}/arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
